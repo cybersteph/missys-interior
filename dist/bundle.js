@@ -35710,9 +35710,13 @@ __webpack_require__.r(__webpack_exports__);
 var Contact = function Contact() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
     className: "contact-section"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Your dream space or event is just one message away."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Your dream space or event is just one message away."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "mailto:missysignaturespaces@gmail.com?subject=%5BType%5D%20Consultation%20Request",
+    target: "_blank",
+    rel: "noopener noreferrer"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
     className: "contact-button"
-  }, "Book Your Consultation"));
+  }, "Book Your Consultation")));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Contact);
 
