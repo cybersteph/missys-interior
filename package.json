@@ -1,5 +1,6 @@
 {
   "name": "missys-interior",
+  "homepage": "https://cybersteph.github.io/missys-interior",
   "version": "1.0.0",
   "description": "",
   "main": "./src/main.jsx",
@@ -18,7 +19,6 @@
   "bugs": {
     "url": "https://github.com/cybersteph/missys-interior/issues"
   },
-  "homepage": "https://github.com/cybersteph/missys-interior#readme",
   "dependencies": {
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
