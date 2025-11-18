@@ -1,11 +1,10 @@
 image: node:18
-# .gitlab-ci.yml
 
 stages:
   - build
   - deploy
 
-# Cache node_modules to speed up builds
+# Cache node_modules for faster builds
 cache:
   paths:
     - node_modules/
@@ -13,22 +12,22 @@ cache:
 # Build stage
 build:
   stage: build
-  image: node:18  # Use your preferred Node version
+  image: node:18  # use the Node version you need
   script:
     - npm install
-    - npm run build  # Should create your 'build' folder
+    - npm run build
   artifacts:
     paths:
-      - build/       # Make the build folder available to the deploy stage
+      - build/  # your Webpack build output
 
-# Deploy stage
+# Deploy stage (GitLab Pages)
 pages:
   stage: deploy
-  image: node:18
-  dependencies:
-    - build         # Pull artifacts from build stage
   script:
-    - npm install -g gh-pages
-    - gh-pages -d build
+    # Copy the built site to the folder GitLab Pages expects
+    - cp -r build/* public/
+  artifacts:
+    paths:
+      - public
   only:
-    - main          # Or master, whichever branch you want to deploy from
+    - main  # deploy only from main branch
