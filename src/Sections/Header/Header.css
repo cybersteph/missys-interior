@@ -1,39 +1,47 @@
 .header {
-    height: 90vh;
-    background: url('../../assets/Tezza-9342.JPG');
-    display: flex;
-    align-items: center;
-    color: white;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed; /* THIS makes it stay while content scrolls */
-  }
+  position: relative;      /* allows text overlay inside header */
+  height: 90vh;            /* header height, adjust as needed */
+  display: flex;           /* centers content vertically */
+  align-items: center;     /* vertical centering */
+  justify-content: center; /* horizontal centering if needed */
+  color: white;            /* text color */
+  overflow: hidden;
+}
+
+.header img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;   /* scales image to fill header while maintaining aspect ratio */
+  z-index: -1;         /* ensures content (text) sits above the image */
+}
   
-  .header-content h1 {
-    font-size: clamp(3rem, 4vw, 3.5rem);
-    margin-bottom: 20px;
-    color: white;
-    -webkit-text-stroke: 2px black; /* outline thickness + color */
-    font-weight: 700;
-  }
+.header-content h1 {
+  font-size: clamp(3rem, 4vw, 3.5rem);
+  margin-bottom: 20px;
+  color: white;
+  -webkit-text-stroke: 2px black; /* outline thickness + color */
+  font-weight: 700;
+}
   
-  .header-content h2 {
-    color: white;
-    -webkit-text-stroke: 1px pink; /* outline thickness + color */
-    font-weight: 300;
-  }
+.header-content h2 {
+  color: white;
+  -webkit-text-stroke: 1px pink; /* outline thickness + color */
+  font-weight: 300;
+}
   
-  .header-button {
-    background: #000;
-    color: #fff;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    font-size: 1rem;
-    transition: 0.3s;
-  }
-  
-  .header-button:hover {
-    background: #444;
-  }
+.header-button {
+  background: #000;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.header-button:hover {
+  background: #444;
+}

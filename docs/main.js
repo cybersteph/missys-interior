@@ -575,55 +575,58 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
-/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);
 // Imports
 
 
-
-var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../../assets/Tezza-9342.JPG */ "./src/assets/Tezza-9342.JPG"), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
-var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `.header {
-    height: 90vh;
-    background: url(${___CSS_LOADER_URL_REPLACEMENT_0___});
-    display: flex;
-    align-items: center;
-    color: white;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed; /* THIS makes it stay while content scrolls */
-  }
+  position: relative;      /* allows text overlay inside header */
+  height: 90vh;            /* header height, adjust as needed */
+  display: flex;           /* centers content vertically */
+  align-items: center;     /* vertical centering */
+  justify-content: center; /* horizontal centering if needed */
+  color: white;            /* text color */
+  overflow: hidden;
+}
+
+.header img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;   /* scales image to fill header while maintaining aspect ratio */
+  z-index: -1;         /* ensures content (text) sits above the image */
+}
   
-  .header-content h1 {
-    font-size: clamp(3rem, 4vw, 3.5rem);
-    margin-bottom: 20px;
-    color: white;
-    -webkit-text-stroke: 2px black; /* outline thickness + color */
-    font-weight: 700;
-  }
+.header-content h1 {
+  font-size: clamp(3rem, 4vw, 3.5rem);
+  margin-bottom: 20px;
+  color: white;
+  -webkit-text-stroke: 2px black; /* outline thickness + color */
+  font-weight: 700;
+}
   
-  .header-content h2 {
-    color: white;
-    -webkit-text-stroke: 1px pink; /* outline thickness + color */
-    font-weight: 300;
-  }
+.header-content h2 {
+  color: white;
+  -webkit-text-stroke: 1px pink; /* outline thickness + color */
+  font-weight: 300;
+}
   
-  .header-button {
-    background: #000;
-    color: #fff;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    font-size: 1rem;
-    transition: 0.3s;
-  }
-  
-  .header-button:hover {
-    background: #444;
-  }`, "",{"version":3,"sources":["webpack://./src/Sections/Header/Header.css"],"names":[],"mappings":"AAAA;IACI,YAAY;IACZ,mDAA8C;IAC9C,aAAa;IACb,mBAAmB;IACnB,YAAY;IACZ,sBAAsB;IACtB,2BAA2B;IAC3B,4BAA4B;IAC5B,4BAA4B,EAAE,6CAA6C;EAC7E;;EAEA;IACE,mCAAmC;IACnC,mBAAmB;IACnB,YAAY;IACZ,8BAA8B,EAAE,8BAA8B;IAC9D,gBAAgB;EAClB;;EAEA;IACE,YAAY;IACZ,6BAA6B,EAAE,8BAA8B;IAC7D,gBAAgB;EAClB;;EAEA;IACE,gBAAgB;IAChB,WAAW;IACX,kBAAkB;IAClB,YAAY;IACZ,eAAe;IACf,eAAe;IACf,gBAAgB;EAClB;;EAEA;IACE,gBAAgB;EAClB","sourcesContent":[".header {\n    height: 90vh;\n    background: url('../../assets/Tezza-9342.JPG');\n    display: flex;\n    align-items: center;\n    color: white;\n    background-size: cover;\n    background-position: center;\n    background-repeat: no-repeat;\n    background-attachment: fixed; /* THIS makes it stay while content scrolls */\n  }\n  \n  .header-content h1 {\n    font-size: clamp(3rem, 4vw, 3.5rem);\n    margin-bottom: 20px;\n    color: white;\n    -webkit-text-stroke: 2px black; /* outline thickness + color */\n    font-weight: 700;\n  }\n  \n  .header-content h2 {\n    color: white;\n    -webkit-text-stroke: 1px pink; /* outline thickness + color */\n    font-weight: 300;\n  }\n  \n  .header-button {\n    background: #000;\n    color: #fff;\n    padding: 12px 24px;\n    border: none;\n    cursor: pointer;\n    font-size: 1rem;\n    transition: 0.3s;\n  }\n  \n  .header-button:hover {\n    background: #444;\n  }"],"sourceRoot":""}]);
+.header-button {
+  background: #000;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.header-button:hover {
+  background: #444;
+}`, "",{"version":3,"sources":["webpack://./src/Sections/Header/Header.css"],"names":[],"mappings":"AAAA;EACE,kBAAkB,OAAO,sCAAsC;EAC/D,YAAY,aAAa,oCAAoC;EAC7D,aAAa,YAAY,+BAA+B;EACxD,mBAAmB,MAAM,uBAAuB;EAChD,uBAAuB,EAAE,mCAAmC;EAC5D,YAAY,aAAa,eAAe;EACxC,gBAAgB;AAClB;;AAEA;EACE,kBAAkB;EAClB,MAAM;EACN,OAAO;EACP,WAAW;EACX,YAAY;EACZ,iBAAiB,IAAI,+DAA+D;EACpF,WAAW,UAAU,gDAAgD;AACvE;;AAEA;EACE,mCAAmC;EACnC,mBAAmB;EACnB,YAAY;EACZ,8BAA8B,EAAE,8BAA8B;EAC9D,gBAAgB;AAClB;;AAEA;EACE,YAAY;EACZ,6BAA6B,EAAE,8BAA8B;EAC7D,gBAAgB;AAClB;;AAEA;EACE,gBAAgB;EAChB,WAAW;EACX,kBAAkB;EAClB,YAAY;EACZ,eAAe;EACf,eAAe;EACf,gBAAgB;AAClB;;AAEA;EACE,gBAAgB;AAClB","sourcesContent":[".header {\n  position: relative;      /* allows text overlay inside header */\n  height: 90vh;            /* header height, adjust as needed */\n  display: flex;           /* centers content vertically */\n  align-items: center;     /* vertical centering */\n  justify-content: center; /* horizontal centering if needed */\n  color: white;            /* text color */\n  overflow: hidden;\n}\n\n.header img {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  object-fit: cover;   /* scales image to fill header while maintaining aspect ratio */\n  z-index: -1;         /* ensures content (text) sits above the image */\n}\n  \n.header-content h1 {\n  font-size: clamp(3rem, 4vw, 3.5rem);\n  margin-bottom: 20px;\n  color: white;\n  -webkit-text-stroke: 2px black; /* outline thickness + color */\n  font-weight: 700;\n}\n  \n.header-content h2 {\n  color: white;\n  -webkit-text-stroke: 1px pink; /* outline thickness + color */\n  font-weight: 300;\n}\n  \n.header-button {\n  background: #000;\n  color: #fff;\n  padding: 12px 24px;\n  border: none;\n  cursor: pointer;\n  font-size: 1rem;\n  transition: 0.3s;\n}\n\n.header-button:hover {\n  background: #444;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -35790,7 +35793,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Header_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header.css */ "./src/Sections/Header/Header.css");
+/* harmony import */ var _assets_Tezza_9342_JPG__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../assets/Tezza-9342.JPG */ "./src/assets/Tezza-9342.JPG");
+/* harmony import */ var _Header_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Header.css */ "./src/Sections/Header/Header.css");
+
 
  // optional stylesheet
 
@@ -35799,7 +35804,10 @@ var Header = function Header() {
     className: "header"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "header-content"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, "Creating experiences by transforming any space."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Moments made beautiful."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "We don\u2019t just decorate spaces \u2014 we craft environments that tell stories. From curated home and office designs to beautifully themed events, parties, and special celebrations, we transform any space into a moment you\u2019ll never forget."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    src: _assets_Tezza_9342_JPG__WEBPACK_IMPORTED_MODULE_1__,
+    alt: "Header Image"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, "Creating experiences by transforming any space."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Moments made beautiful."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "We don\u2019t just decorate spaces \u2014 we craft environments that tell stories. From curated home and office designs to beautifully themed events, parties, and special celebrations, we transform any space into a moment you\u2019ll never forget."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
     className: "header-button"
   }, "Let's Get Started")));
 };
