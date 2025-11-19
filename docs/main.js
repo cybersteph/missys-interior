@@ -575,31 +575,37 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);
 // Imports
 
 
+
+var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../../assets/Tezza-9342.JPG */ "./src/assets/Tezza-9342.JPG"), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `.header {
-  position: relative;      /* allows text overlay inside header */
-  height: 90vh;            /* header height, adjust as needed */
-  display: flex;           /* centers content vertically */
-  align-items: center;     /* vertical centering */
-  justify-content: center; /* horizontal centering if needed */
-  color: white;            /* text color */
-  overflow: hidden;
+  height: 90vh; /* only this area shows the fixed image */
+  display: flex; /* centers content vertically */
+  align-items: center; /* vertical centering */
+  justify-content: center; /* horizontal centering */
+  color: white;
+  background-image: url(${___CSS_LOADER_URL_REPLACEMENT_0___});
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;  /* 🚀 THIS is the key */
+  position: relative;
+  padding: 0 20px;
 }
 
-.header img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;   /* scales image to fill header while maintaining aspect ratio */
-  z-index: -1;         /* ensures content (text) sits above the image */
+/* Content inside header */
+.header-content {
+  position: relative;
+  z-index: 2;
 }
-  
+
 .header-content h1 {
   font-size: clamp(3rem, 4vw, 3.5rem);
   margin-bottom: 20px;
@@ -607,13 +613,13 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.header {
   -webkit-text-stroke: 2px black; /* outline thickness + color */
   font-weight: 700;
 }
-  
+
 .header-content h2 {
   color: white;
   -webkit-text-stroke: 1px pink; /* outline thickness + color */
   font-weight: 300;
 }
-  
+
 .header-button {
   background: #000;
   color: #fff;
@@ -626,7 +632,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.header {
 
 .header-button:hover {
   background: #444;
-}`, "",{"version":3,"sources":["webpack://./src/Sections/Header/Header.css"],"names":[],"mappings":"AAAA;EACE,kBAAkB,OAAO,sCAAsC;EAC/D,YAAY,aAAa,oCAAoC;EAC7D,aAAa,YAAY,+BAA+B;EACxD,mBAAmB,MAAM,uBAAuB;EAChD,uBAAuB,EAAE,mCAAmC;EAC5D,YAAY,aAAa,eAAe;EACxC,gBAAgB;AAClB;;AAEA;EACE,kBAAkB;EAClB,MAAM;EACN,OAAO;EACP,WAAW;EACX,YAAY;EACZ,iBAAiB,IAAI,+DAA+D;EACpF,WAAW,UAAU,gDAAgD;AACvE;;AAEA;EACE,mCAAmC;EACnC,mBAAmB;EACnB,YAAY;EACZ,8BAA8B,EAAE,8BAA8B;EAC9D,gBAAgB;AAClB;;AAEA;EACE,YAAY;EACZ,6BAA6B,EAAE,8BAA8B;EAC7D,gBAAgB;AAClB;;AAEA;EACE,gBAAgB;EAChB,WAAW;EACX,kBAAkB;EAClB,YAAY;EACZ,eAAe;EACf,eAAe;EACf,gBAAgB;AAClB;;AAEA;EACE,gBAAgB;AAClB","sourcesContent":[".header {\n  position: relative;      /* allows text overlay inside header */\n  height: 90vh;            /* header height, adjust as needed */\n  display: flex;           /* centers content vertically */\n  align-items: center;     /* vertical centering */\n  justify-content: center; /* horizontal centering if needed */\n  color: white;            /* text color */\n  overflow: hidden;\n}\n\n.header img {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  object-fit: cover;   /* scales image to fill header while maintaining aspect ratio */\n  z-index: -1;         /* ensures content (text) sits above the image */\n}\n  \n.header-content h1 {\n  font-size: clamp(3rem, 4vw, 3.5rem);\n  margin-bottom: 20px;\n  color: white;\n  -webkit-text-stroke: 2px black; /* outline thickness + color */\n  font-weight: 700;\n}\n  \n.header-content h2 {\n  color: white;\n  -webkit-text-stroke: 1px pink; /* outline thickness + color */\n  font-weight: 300;\n}\n  \n.header-button {\n  background: #000;\n  color: #fff;\n  padding: 12px 24px;\n  border: none;\n  cursor: pointer;\n  font-size: 1rem;\n  transition: 0.3s;\n}\n\n.header-button:hover {\n  background: #444;\n}"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/Sections/Header/Header.css"],"names":[],"mappings":"AAAA;EACE,YAAY,EAAE,yCAAyC;EACvD,aAAa,EAAE,+BAA+B;EAC9C,mBAAmB,EAAE,uBAAuB;EAC5C,uBAAuB,EAAE,yBAAyB;EAClD,YAAY;EACZ,yDAAoD;EACpD,sBAAsB;EACtB,2BAA2B;EAC3B,4BAA4B;EAC5B,4BAA4B,GAAG,uBAAuB;EACtD,kBAAkB;EAClB,eAAe;AACjB;;AAEA,0BAA0B;AAC1B;EACE,kBAAkB;EAClB,UAAU;AACZ;;AAEA;EACE,mCAAmC;EACnC,mBAAmB;EACnB,YAAY;EACZ,8BAA8B,EAAE,8BAA8B;EAC9D,gBAAgB;AAClB;;AAEA;EACE,YAAY;EACZ,6BAA6B,EAAE,8BAA8B;EAC7D,gBAAgB;AAClB;;AAEA;EACE,gBAAgB;EAChB,WAAW;EACX,kBAAkB;EAClB,YAAY;EACZ,eAAe;EACf,eAAe;EACf,gBAAgB;AAClB;;AAEA;EACE,gBAAgB;AAClB","sourcesContent":[".header {\n  height: 90vh; /* only this area shows the fixed image */\n  display: flex; /* centers content vertically */\n  align-items: center; /* vertical centering */\n  justify-content: center; /* horizontal centering */\n  color: white;\n  background-image: url(\"../../assets/Tezza-9342.JPG\");\n  background-size: cover;\n  background-position: center;\n  background-repeat: no-repeat;\n  background-attachment: fixed;  /* 🚀 THIS is the key */\n  position: relative;\n  padding: 0 20px;\n}\n\n/* Content inside header */\n.header-content {\n  position: relative;\n  z-index: 2;\n}\n\n.header-content h1 {\n  font-size: clamp(3rem, 4vw, 3.5rem);\n  margin-bottom: 20px;\n  color: white;\n  -webkit-text-stroke: 2px black; /* outline thickness + color */\n  font-weight: 700;\n}\n\n.header-content h2 {\n  color: white;\n  -webkit-text-stroke: 1px pink; /* outline thickness + color */\n  font-weight: 300;\n}\n\n.header-button {\n  background: #000;\n  color: #fff;\n  padding: 12px 24px;\n  border: none;\n  cursor: pointer;\n  font-size: 1rem;\n  transition: 0.3s;\n}\n\n.header-button:hover {\n  background: #444;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -35793,9 +35799,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _assets_Tezza_9342_JPG__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../assets/Tezza-9342.JPG */ "./src/assets/Tezza-9342.JPG");
-/* harmony import */ var _Header_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Header.css */ "./src/Sections/Header/Header.css");
-
+/* harmony import */ var _Header_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header.css */ "./src/Sections/Header/Header.css");
 
  // optional stylesheet
 
@@ -35804,10 +35808,7 @@ var Header = function Header() {
     className: "header"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "header-content"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: _assets_Tezza_9342_JPG__WEBPACK_IMPORTED_MODULE_1__,
-    alt: "Header Image"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, "Creating experiences by transforming any space."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Moments made beautiful."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "I don\u2019t just decorate spaces \u2014 I craft environments that tell stories. From curated home and office designs to beautifully themed events, parties, and special celebrations, I transform any space into a moment you\u2019ll never forget."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, "Creating experiences by transforming any space."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Moments made beautiful."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "I don\u2019t just decorate spaces \u2014 I craft environments that tell stories. From curated home and office designs to beautifully themed events, parties, and special celebrations, I transform any space into a moment you\u2019ll never forget."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "mailto:missysignaturespaces@gmail.com?subject=%5BType%5D%20Consultation%20Request",
     target: "_blank",
     rel: "noopener noreferrer"
