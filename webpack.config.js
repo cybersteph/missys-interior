@@ -5,7 +5,7 @@ module.exports = {
     entry: './src/main.jsx',
     output: {
         path: path.resolve(__dirname, 'build'),
-        filename: 'bundle.js',
+        filename: 'main.js',
     },
     devServer: {
         historyApiFallback: true,
