@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import Slider from "react-slick";
 
 import com1 from '../../assets/commercial/Tezza-1617.JPG';

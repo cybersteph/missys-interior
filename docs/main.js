@@ -35624,12 +35624,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _About_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./About.css */ "./src/Sections/About/About.css");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _About_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./About.css */ "./src/Sections/About/About.css");
+
 
 var About = function About() {
-  return /*#__PURE__*/React.createElement("section", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
     className: "about-section"
-  }, /*#__PURE__*/React.createElement("h2", null, "About Me"), /*#__PURE__*/React.createElement("p", null, "I specialize in creating inspired designs that turn dreams into reality. Whether you're decorating your home, elevating your workspace, hosting a holiday gathering, or planning a party or special event, I bring your vision to life with intention, creativity, and care."));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "About Me"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "I specialize in creating inspired designs that turn dreams into reality. Whether you're decorating your home, elevating your workspace, hosting a holiday gathering, or planning a party or special event, I bring your vision to life with intention, creativity, and care."));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (About);
 
@@ -35701,16 +35704,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _Contact_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Contact.css */ "./src/Sections/Contact/Contact.css");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Contact_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Contact.css */ "./src/Sections/Contact/Contact.css");
+
 
 var Contact = function Contact() {
-  return /*#__PURE__*/React.createElement("section", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
     className: "contact-section"
-  }, /*#__PURE__*/React.createElement("h2", null, "Your dream space or event is just one message away."), /*#__PURE__*/React.createElement("a", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Your dream space or event is just one message away."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "mailto:missysignaturespaces@gmail.com?subject=%5BType%5D%20Consultation%20Request",
     target: "_blank",
     rel: "noopener noreferrer"
-  }, /*#__PURE__*/React.createElement("button", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
     className: "contact-button"
   }, "Book Your Consultation")));
 };
@@ -35784,18 +35790,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _Header_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Header.css */ "./src/Sections/Header/Header.css");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Header_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header.css */ "./src/Sections/Header/Header.css");
+
 
 var Header = function Header() {
-  return /*#__PURE__*/React.createElement("section", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
     className: "header"
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "header-content"
-  }, /*#__PURE__*/React.createElement("h1", null, "Creating experiences by transforming any space."), /*#__PURE__*/React.createElement("h2", null, "Moments made beautiful."), /*#__PURE__*/React.createElement("p", null, "I don\u2019t just decorate spaces \u2014 I craft environments that tell stories. From curated home and office designs to beautifully themed events, parties, and special celebrations, I transform any space into a moment you\u2019ll never forget."), /*#__PURE__*/React.createElement("a", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, "Creating experiences by transforming any space."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Moments made beautiful."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "I don\u2019t just decorate spaces \u2014 I craft environments that tell stories. From curated home and office designs to beautifully themed events, parties, and special celebrations, I transform any space into a moment you\u2019ll never forget."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "mailto:missysignaturespaces@gmail.com?subject=%5BType%5D%20Consultation%20Request",
     target: "_blank",
     rel: "noopener noreferrer"
-  }, /*#__PURE__*/React.createElement("button", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
     className: "header-button"
   }, "Let's Get Started"))));
 };
@@ -35996,21 +36005,21 @@ var Portfolio = function Portfolio() {
     name: "Event Planning",
     images: [_assets_event_Tezza_0472_JPG__WEBPACK_IMPORTED_MODULE_7__, _assets_event_Tezza_0917_JPG__WEBPACK_IMPORTED_MODULE_8__, _assets_event_Tezza_1846_JPG__WEBPACK_IMPORTED_MODULE_9__, _assets_event_Tezza_1975_JPG__WEBPACK_IMPORTED_MODULE_10__, _assets_event_Tezza_6247_JPG__WEBPACK_IMPORTED_MODULE_11__, _assets_event_Tezza_3011_JPG__WEBPACK_IMPORTED_MODULE_12__, _assets_event_Tezza_4553_JPG__WEBPACK_IMPORTED_MODULE_13__, _assets_event_Tezza_7719_JPG__WEBPACK_IMPORTED_MODULE_14__, _assets_event_Tezza_8810_JPG__WEBPACK_IMPORTED_MODULE_15__]
   }];
-  return /*#__PURE__*/React.createElement("section", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
     className: "portfolio-section"
-  }, /*#__PURE__*/React.createElement("h2", null, "Portfolio"), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Portfolio"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "portfolio-categories"
   }, categories.map(function (cat, index) {
-    return /*#__PURE__*/React.createElement("div", {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
       key: index,
       className: "portfolio-category"
-    }, /*#__PURE__*/React.createElement("h3", null, cat.name), /*#__PURE__*/React.createElement(react_slick__WEBPACK_IMPORTED_MODULE_1__["default"], _extends({
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, cat.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_slick__WEBPACK_IMPORTED_MODULE_1__["default"], _extends({
       ref: cat.ref
     }, settings), cat.images.map(function (img, i) {
-      return /*#__PURE__*/React.createElement("div", {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
         key: i,
         className: "portfolio-item"
-      }, /*#__PURE__*/React.createElement("img", {
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
         src: img,
         alt: "".concat(cat.name, " ").concat(i + 1)
       }));
@@ -36087,20 +36096,23 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _Services_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Services.css */ "./src/Sections/Services/Services.css");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Services_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Services.css */ "./src/Sections/Services/Services.css");
+
 
 var Services = function Services() {
-  return /*#__PURE__*/React.createElement("section", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
     className: "services-section"
-  }, /*#__PURE__*/React.createElement("h2", null, "Services"), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Services"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "service-list"
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "service-card"
-  }, /*#__PURE__*/React.createElement("h3", null, "Residential Design"), /*#__PURE__*/React.createElement("p", null, "Thoughtfully curated home spaces shaped around the way you live. Whether it's subtle enhancements or full transformations, every detail is crafted to reflect your personality, lifestyle, and vision.")), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, "Residential Design"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Thoughtfully curated home spaces shaped around the way you live. Whether it's subtle enhancements or full transformations, every detail is crafted to reflect your personality, lifestyle, and vision.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "service-card"
-  }, /*#__PURE__*/React.createElement("h3", null, "Commercial Design"), /*#__PURE__*/React.createElement("p", null, "Inviting, functional environments that elevate your brand. From offices to boutique spaces, I create atmospheres that support productivity, create impact, and elevate the experience of everyone who walks through your doors.")), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, "Commercial Design"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Inviting, functional environments that elevate your brand. From offices to boutique spaces, I create atmospheres that support productivity, create impact, and elevate the experience of everyone who walks through your doors.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "service-card"
-  }, /*#__PURE__*/React.createElement("h3", null, "Event Planning"), /*#__PURE__*/React.createElement("p", null, "From birthdays to holiday gatherings, or milestone moments, I help you bring your celebration to life with style and ease. You share the vision\u2014I bring the creativity, coordination, and atmosphere to craft moments your guests will remember."))));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, "Event Planning"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "From birthdays to holiday gatherings, or milestone moments, I help you bring your celebration to life with style and ease. You share the vision\u2014I bring the creativity, coordination, and atmosphere to craft moments your guests will remember."))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Services);
 
@@ -36172,12 +36184,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _Sections_Header_Header__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Sections/Header/Header */ "./src/Sections/Header/Header.jsx");
-/* harmony import */ var _Sections_About_About__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Sections/About/About */ "./src/Sections/About/About.jsx");
-/* harmony import */ var _Sections_Services_Services__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Sections/Services/Services */ "./src/Sections/Services/Services.jsx");
-/* harmony import */ var _Sections_Portfolio_Portfolio__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Sections/Portfolio/Portfolio */ "./src/Sections/Portfolio/Portfolio.jsx");
-/* harmony import */ var _Sections_Contact_Contact__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Sections/Contact/Contact */ "./src/Sections/Contact/Contact.jsx");
-/* harmony import */ var _app_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./app.css */ "./src/app.css");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Sections_Header_Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Sections/Header/Header */ "./src/Sections/Header/Header.jsx");
+/* harmony import */ var _Sections_About_About__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Sections/About/About */ "./src/Sections/About/About.jsx");
+/* harmony import */ var _Sections_Services_Services__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Sections/Services/Services */ "./src/Sections/Services/Services.jsx");
+/* harmony import */ var _Sections_Portfolio_Portfolio__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Sections/Portfolio/Portfolio */ "./src/Sections/Portfolio/Portfolio.jsx");
+/* harmony import */ var _Sections_Contact_Contact__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Sections/Contact/Contact */ "./src/Sections/Contact/Contact.jsx");
+/* harmony import */ var _app_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./app.css */ "./src/app.css");
+
 
 
 
@@ -36185,9 +36200,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var App = function App() {
-  return /*#__PURE__*/React.createElement("div", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "homepage"
-  }, /*#__PURE__*/React.createElement(_Sections_Header_Header__WEBPACK_IMPORTED_MODULE_0__["default"], null), /*#__PURE__*/React.createElement(_Sections_About_About__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/React.createElement(_Sections_Services_Services__WEBPACK_IMPORTED_MODULE_2__["default"], null), /*#__PURE__*/React.createElement(_Sections_Portfolio_Portfolio__WEBPACK_IMPORTED_MODULE_3__["default"], null), /*#__PURE__*/React.createElement(_Sections_Contact_Contact__WEBPACK_IMPORTED_MODULE_4__["default"], null));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Sections_Header_Header__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Sections_About_About__WEBPACK_IMPORTED_MODULE_2__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Sections_Services_Services__WEBPACK_IMPORTED_MODULE_3__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Sections_Portfolio_Portfolio__WEBPACK_IMPORTED_MODULE_4__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Sections_Contact_Contact__WEBPACK_IMPORTED_MODULE_5__["default"], null));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (App);
 
@@ -36702,12 +36717,15 @@ var __webpack_exports__ = {};
   !*** ./src/main.jsx ***!
   \**********************/
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react_dom_client__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-dom/client */ "./node_modules/react-dom/client.js");
-/* harmony import */ var _app__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./app */ "./src/app.jsx");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_dom_client__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom/client */ "./node_modules/react-dom/client.js");
+/* harmony import */ var _app__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app */ "./src/app.jsx");
 
 
-var root = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_0__.createRoot)(document.getElementById('root'));
-root.render(/*#__PURE__*/React.createElement(_app__WEBPACK_IMPORTED_MODULE_1__["default"], null));
+
+var root = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_1__.createRoot)(document.getElementById('root'));
+root.render(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_app__WEBPACK_IMPORTED_MODULE_2__["default"], null));
 })();
 
 /******/ })()
