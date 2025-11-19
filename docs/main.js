@@ -35807,7 +35807,7 @@ var Header = function Header() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: _assets_Tezza_9342_JPG__WEBPACK_IMPORTED_MODULE_1__,
     alt: "Header Image"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, "Creating experiences by transforming any space."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Moments made beautiful."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "We don\u2019t just decorate spaces \u2014 we craft environments that tell stories. From curated home and office designs to beautifully themed events, parties, and special celebrations, we transform any space into a moment you\u2019ll never forget."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, "Creating experiences by transforming any space."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Moments made beautiful."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "I don\u2019t just decorate spaces \u2014 I craft environments that tell stories. From curated home and office designs to beautifully themed events, parties, and special celebrations, I transform any space into a moment you\u2019ll never forget."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "mailto:missysignaturespaces@gmail.com?subject=%5BType%5D%20Consultation%20Request",
     target: "_blank",
     rel: "noopener noreferrer"
