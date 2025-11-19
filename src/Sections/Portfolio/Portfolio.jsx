@@ -62,24 +62,24 @@ const Portfolio = () => {
   }, []);
 
     const settings = {
-        dots: false,        // desktop default
-        arrows: true,       // desktop default
-        infinite: true,
-        speed: 600,
-        slidesToShow: 1,
-        autoplay: true,    // desktop default
-      
-        responsive: [
-          {
-            breakpoint: 768, // under 768px = mobile
-            settings: {
-              dots: true,
-              arrows: false,
-              autoplay: true,
-            }
+      dots: false,        // desktop default
+      arrows: true,       // desktop default
+      infinite: true,
+      speed: 600,
+      slidesToShow: 1,
+      autoplay: true,    // desktop default
+    
+      responsive: [
+        {
+          breakpoint: 768, // under 768px = mobile
+          settings: {
+            dots: true,
+            arrows: false,
+            autoplay: true,
           }
-        ]
-      };
+        }
+      ]
+    };
 
   const categories = [
     { name: "Residential Design", images: [res1, res2, res3, res4, res5, res6, res7, res8, res9, res10, res11, res12, res13, res14, res15, res16, res17] },

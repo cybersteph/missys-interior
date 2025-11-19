@@ -12,7 +12,13 @@ const Header = () => {
           <p>We don’t just decorate spaces — we craft environments that tell stories. 
             From curated home and office designs to beautifully themed events, parties, 
             and special celebrations, we transform any space into a moment you’ll never forget.</p>
-          <button className="header-button">Let's Get Started</button>
+          <a
+            href="mailto:missysignaturespaces@gmail.com?subject=%5BType%5D%20Consultation%20Request"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="header-button">Let's Get Started</button>
+          </a>
         </div>
       </section>
   );
