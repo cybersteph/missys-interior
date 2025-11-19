@@ -18,6 +18,12 @@
   position: relative;
   z-index: 2;
 }
+ /* Fallback for failed mobile header image fixed position */
+@media (max-width: 768px) {
+  .header {
+    background-attachment: initial;
+  }
+}
 
 .header-content h1 {
   font-size: clamp(3rem, 4vw, 3.5rem);
