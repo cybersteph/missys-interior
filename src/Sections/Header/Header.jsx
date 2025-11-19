@@ -9,9 +9,9 @@ const Header = () => {
           <img src={headerImg} alt="Header Image"></img>
           <h1>Creating experiences by transforming any space.</h1>
           <h2>Moments made beautiful.</h2>
-          <p>We don’t just decorate spaces — we craft environments that tell stories. 
+          <p>I don’t just decorate spaces — I craft environments that tell stories. 
             From curated home and office designs to beautifully themed events, parties, 
-            and special celebrations, we transform any space into a moment you’ll never forget.</p>
+            and special celebrations, I transform any space into a moment you’ll never forget.</p>
           <a
             href="mailto:missysignaturespaces@gmail.com?subject=%5BType%5D%20Consultation%20Request"
             target="_blank"
