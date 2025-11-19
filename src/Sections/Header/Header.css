@@ -18,6 +18,7 @@
   position: relative;
   z-index: 2;
 }
+
  /* Fallback for failed mobile header image fixed position */
 @media (max-width: 768px) {
   .header {

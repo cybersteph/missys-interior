@@ -500,16 +500,16 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `.about-section {
-    text-align: center;
-  }
+  text-align: center;
+}
 
 .about-section p {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    color: pink;
-    -webkit-text-stroke: 1px black; /* outline thickness + color */
-    font-weight: 400;
-}`, "",{"version":3,"sources":["webpack://./src/Sections/About/About.css"],"names":[],"mappings":"AAAA;IACI,kBAAkB;EACpB;;AAEF;IACI,eAAe;IACf,mBAAmB;IACnB,WAAW;IACX,8BAA8B,EAAE,8BAA8B;IAC9D,gBAAgB;AACpB","sourcesContent":[".about-section {\n    text-align: center;\n  }\n\n.about-section p {\n    font-size: 2rem;\n    margin-bottom: 20px;\n    color: pink;\n    -webkit-text-stroke: 1px black; /* outline thickness + color */\n    font-weight: 400;\n}"],"sourceRoot":""}]);
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: pink;
+  -webkit-text-stroke: 1px black; /* outline thickness + color */
+  font-weight: 400;
+}`, "",{"version":3,"sources":["webpack://./src/Sections/About/About.css"],"names":[],"mappings":"AAAA;EACE,kBAAkB;AACpB;;AAEA;EACE,eAAe;EACf,mBAAmB;EACnB,WAAW;EACX,8BAA8B,EAAE,8BAA8B;EAC9D,gBAAgB;AAClB","sourcesContent":[".about-section {\n  text-align: center;\n}\n\n.about-section p {\n  font-size: 2rem;\n  margin-bottom: 20px;\n  color: pink;\n  -webkit-text-stroke: 1px black; /* outline thickness + color */\n  font-weight: 400;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -537,23 +537,23 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `.contact-section {
-    text-align: center;
-  }
+  text-align: center;
+}
 
 
-  .contact-button {
-    background: #000;
-    color: #fff;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    font-size: 1rem;
-    transition: 0.3s;
-  }
+.contact-button {
+  background: #000;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.3s;
+}
   
-  .contact-button:hover {
-    background: #444;
-  }`, "",{"version":3,"sources":["webpack://./src/Sections/Contact/Contact.css"],"names":[],"mappings":"AAAA;IACI,kBAAkB;EACpB;;;EAGA;IACE,gBAAgB;IAChB,WAAW;IACX,kBAAkB;IAClB,YAAY;IACZ,eAAe;IACf,eAAe;IACf,gBAAgB;EAClB;;EAEA;IACE,gBAAgB;EAClB","sourcesContent":[".contact-section {\n    text-align: center;\n  }\n\n\n  .contact-button {\n    background: #000;\n    color: #fff;\n    padding: 12px 24px;\n    border: none;\n    cursor: pointer;\n    font-size: 1rem;\n    transition: 0.3s;\n  }\n  \n  .contact-button:hover {\n    background: #444;\n  }"],"sourceRoot":""}]);
+.contact-button:hover {
+  background: #444;
+}`, "",{"version":3,"sources":["webpack://./src/Sections/Contact/Contact.css"],"names":[],"mappings":"AAAA;EACE,kBAAkB;AACpB;;;AAGA;EACE,gBAAgB;EAChB,WAAW;EACX,kBAAkB;EAClB,YAAY;EACZ,eAAe;EACf,eAAe;EACf,gBAAgB;AAClB;;AAEA;EACE,gBAAgB;AAClB","sourcesContent":[".contact-section {\n  text-align: center;\n}\n\n\n.contact-button {\n  background: #000;\n  color: #fff;\n  padding: 12px 24px;\n  border: none;\n  cursor: pointer;\n  font-size: 1rem;\n  transition: 0.3s;\n}\n  \n.contact-button:hover {\n  background: #444;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -605,6 +605,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.header {
   position: relative;
   z-index: 2;
 }
+
  /* Fallback for failed mobile header image fixed position */
 @media (max-width: 768px) {
   .header {
@@ -638,7 +639,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.header {
 
 .header-button:hover {
   background: #444;
-}`, "",{"version":3,"sources":["webpack://./src/Sections/Header/Header.css"],"names":[],"mappings":"AAAA;EACE,YAAY,EAAE,yCAAyC;EACvD,aAAa,EAAE,+BAA+B;EAC9C,mBAAmB,EAAE,uBAAuB;EAC5C,uBAAuB,EAAE,yBAAyB;EAClD,YAAY;EACZ,yDAAoD;EACpD,sBAAsB;EACtB,2BAA2B;EAC3B,4BAA4B;EAC5B,4BAA4B;EAC5B,kBAAkB;EAClB,eAAe;AACjB;;AAEA,0BAA0B;AAC1B;EACE,kBAAkB;EAClB,UAAU;AACZ;CACC,2DAA2D;AAC5D;EACE;IACE,8BAA8B;EAChC;AACF;;AAEA;EACE,mCAAmC;EACnC,mBAAmB;EACnB,YAAY;EACZ,8BAA8B,EAAE,8BAA8B;EAC9D,gBAAgB;AAClB;;AAEA;EACE,YAAY;EACZ,6BAA6B,EAAE,8BAA8B;EAC7D,gBAAgB;AAClB;;AAEA;EACE,gBAAgB;EAChB,WAAW;EACX,kBAAkB;EAClB,YAAY;EACZ,eAAe;EACf,eAAe;EACf,gBAAgB;AAClB;;AAEA;EACE,gBAAgB;AAClB","sourcesContent":[".header {\n  height: 90vh; /* only this area shows the fixed image */\n  display: flex; /* centers content vertically */\n  align-items: center; /* vertical centering */\n  justify-content: center; /* horizontal centering */\n  color: white;\n  background-image: url(\"../../assets/Tezza-9342.JPG\");\n  background-size: cover;\n  background-position: center;\n  background-repeat: no-repeat;\n  background-attachment: fixed;\n  position: relative;\n  padding: 0 20px;\n}\n\n/* Content inside header */\n.header-content {\n  position: relative;\n  z-index: 2;\n}\n /* Fallback for failed mobile header image fixed position */\n@media (max-width: 768px) {\n  .header {\n    background-attachment: initial;\n  }\n}\n\n.header-content h1 {\n  font-size: clamp(3rem, 4vw, 3.5rem);\n  margin-bottom: 20px;\n  color: white;\n  -webkit-text-stroke: 2px black; /* outline thickness + color */\n  font-weight: 700;\n}\n\n.header-content h2 {\n  color: white;\n  -webkit-text-stroke: 1px pink; /* outline thickness + color */\n  font-weight: 300;\n}\n\n.header-button {\n  background: #000;\n  color: #fff;\n  padding: 12px 24px;\n  border: none;\n  cursor: pointer;\n  font-size: 1rem;\n  transition: 0.3s;\n}\n\n.header-button:hover {\n  background: #444;\n}"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/Sections/Header/Header.css"],"names":[],"mappings":"AAAA;EACE,YAAY,EAAE,yCAAyC;EACvD,aAAa,EAAE,+BAA+B;EAC9C,mBAAmB,EAAE,uBAAuB;EAC5C,uBAAuB,EAAE,yBAAyB;EAClD,YAAY;EACZ,yDAAoD;EACpD,sBAAsB;EACtB,2BAA2B;EAC3B,4BAA4B;EAC5B,4BAA4B;EAC5B,kBAAkB;EAClB,eAAe;AACjB;;AAEA,0BAA0B;AAC1B;EACE,kBAAkB;EAClB,UAAU;AACZ;;CAEC,2DAA2D;AAC5D;EACE;IACE,8BAA8B;EAChC;AACF;;AAEA;EACE,mCAAmC;EACnC,mBAAmB;EACnB,YAAY;EACZ,8BAA8B,EAAE,8BAA8B;EAC9D,gBAAgB;AAClB;;AAEA;EACE,YAAY;EACZ,6BAA6B,EAAE,8BAA8B;EAC7D,gBAAgB;AAClB;;AAEA;EACE,gBAAgB;EAChB,WAAW;EACX,kBAAkB;EAClB,YAAY;EACZ,eAAe;EACf,eAAe;EACf,gBAAgB;AAClB;;AAEA;EACE,gBAAgB;AAClB","sourcesContent":[".header {\n  height: 90vh; /* only this area shows the fixed image */\n  display: flex; /* centers content vertically */\n  align-items: center; /* vertical centering */\n  justify-content: center; /* horizontal centering */\n  color: white;\n  background-image: url(\"../../assets/Tezza-9342.JPG\");\n  background-size: cover;\n  background-position: center;\n  background-repeat: no-repeat;\n  background-attachment: fixed;\n  position: relative;\n  padding: 0 20px;\n}\n\n/* Content inside header */\n.header-content {\n  position: relative;\n  z-index: 2;\n}\n\n /* Fallback for failed mobile header image fixed position */\n@media (max-width: 768px) {\n  .header {\n    background-attachment: initial;\n  }\n}\n\n.header-content h1 {\n  font-size: clamp(3rem, 4vw, 3.5rem);\n  margin-bottom: 20px;\n  color: white;\n  -webkit-text-stroke: 2px black; /* outline thickness + color */\n  font-weight: 700;\n}\n\n.header-content h2 {\n  color: white;\n  -webkit-text-stroke: 1px pink; /* outline thickness + color */\n  font-weight: 300;\n}\n\n.header-button {\n  background: #000;\n  color: #fff;\n  padding: 12px 24px;\n  border: none;\n  cursor: pointer;\n  font-size: 1rem;\n  transition: 0.3s;\n}\n\n.header-button:hover {\n  background: #444;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -666,81 +667,67 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `.portfolio-section {
-    text-align: center;
+  text-align: center;
 }
   
 .portfolio-carousel {
-    max-width: 800px;
-    margin: 0 auto;
+  max-width: 800px;
+  margin: 0 auto;
 }
   
 .portfolio-item img {
-    width: 100%;
-    height: 400px; /* or auto with aspect-ratio */
-    object-fit: cover;
-    margin: 0 auto;
-    border-radius: 10px;
-    overflow: hidden;
-    position: relative;
+  width: 100%;
+  height: 400px; /* or auto with aspect-ratio */
+  object-fit: cover;
+  margin: 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
 }
 
   /* Container for categories */
 .portfolio-categories {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
 }
-
-  /* Mobile: stacked */
-/* @media (max-width: 768px) {
-    .portfolio-categories {
-      grid-template-columns: 1fr;
-    }
-} */
-  
-/* Desktop: three side-by-side */
-/* @media (min-width: 769px) {
-    .portfolio-categories {
-        grid-template-columns: repeat(3, 1fr);
-    }
-} */
 
 /* Center content inside each category */
 .portfolio-category {
-    text-align: center;
+  text-align: center;
 }
 
 .slick-slider {
-    position: relative;
-  }
+  position: relative;
+}
   
-  /* Position arrows on top of the images */
-  .slick-prev,
-  .slick-next {
-    z-index: 10;
-    width: 40px;
-    height: 40px;
-    top: 50%;
-    transform: translateY(-50%);
-  }
+/* Position arrows on top of the images */
+.slick-prev,
+.slick-next {
+  z-index: 10;
+  width: 40px;
+  height: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+}
   
-  /* Left arrow */
-  .slick-prev {
-    left: 30px;  /* inside left edge */
-  }
+/* Left arrow */
+.slick-prev {
+  left: 30px;  /* inside left edge */
+}
+
+/* Right arrow */
+.slick-next {
+  right: 30px; /* inside right edge */
+}
   
-  /* Right arrow */
-  .slick-next {
-    right: 30px; /* inside right edge */
-  }
-  
-  /* Make arrow icons visible + styled */
-  .slick-prev:before,
-  .slick-next:before {
-    color: white;         /* or black */
-    opacity: 0.9;
-    font-size: 30px;
-  }`, "",{"version":3,"sources":["webpack://./src/Sections/Portfolio/Portfolio.css"],"names":[],"mappings":"AAAA;IACI,kBAAkB;AACtB;;AAEA;IACI,gBAAgB;IAChB,cAAc;AAClB;;AAEA;IACI,WAAW;IACX,aAAa,EAAE,8BAA8B;IAC7C,iBAAiB;IACjB,cAAc;IACd,mBAAmB;IACnB,gBAAgB;IAChB,kBAAkB;AACtB;;EAEE,6BAA6B;AAC/B;IACI,aAAa;IACb,2DAA2D;IAC3D,SAAS;AACb;;EAEE,oBAAoB;AACtB;;;;GAIG;;AAEH,gCAAgC;AAChC;;;;GAIG;;AAEH,wCAAwC;AACxC;IACI,kBAAkB;AACtB;;AAEA;IACI,kBAAkB;EACpB;;EAEA,yCAAyC;EACzC;;IAEE,WAAW;IACX,WAAW;IACX,YAAY;IACZ,QAAQ;IACR,2BAA2B;EAC7B;;EAEA,eAAe;EACf;IACE,UAAU,GAAG,qBAAqB;EACpC;;EAEA,gBAAgB;EAChB;IACE,WAAW,EAAE,sBAAsB;EACrC;;EAEA,sCAAsC;EACtC;;IAEE,YAAY,UAAU,aAAa;IACnC,YAAY;IACZ,eAAe;EACjB","sourcesContent":[".portfolio-section {\n    text-align: center;\n}\n  \n.portfolio-carousel {\n    max-width: 800px;\n    margin: 0 auto;\n}\n  \n.portfolio-item img {\n    width: 100%;\n    height: 400px; /* or auto with aspect-ratio */\n    object-fit: cover;\n    margin: 0 auto;\n    border-radius: 10px;\n    overflow: hidden;\n    position: relative;\n}\n\n  /* Container for categories */\n.portfolio-categories {\n    display: grid;\n    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));\n    gap: 20px;\n}\n\n  /* Mobile: stacked */\n/* @media (max-width: 768px) {\n    .portfolio-categories {\n      grid-template-columns: 1fr;\n    }\n} */\n  \n/* Desktop: three side-by-side */\n/* @media (min-width: 769px) {\n    .portfolio-categories {\n        grid-template-columns: repeat(3, 1fr);\n    }\n} */\n\n/* Center content inside each category */\n.portfolio-category {\n    text-align: center;\n}\n\n.slick-slider {\n    position: relative;\n  }\n  \n  /* Position arrows on top of the images */\n  .slick-prev,\n  .slick-next {\n    z-index: 10;\n    width: 40px;\n    height: 40px;\n    top: 50%;\n    transform: translateY(-50%);\n  }\n  \n  /* Left arrow */\n  .slick-prev {\n    left: 30px;  /* inside left edge */\n  }\n  \n  /* Right arrow */\n  .slick-next {\n    right: 30px; /* inside right edge */\n  }\n  \n  /* Make arrow icons visible + styled */\n  .slick-prev:before,\n  .slick-next:before {\n    color: white;         /* or black */\n    opacity: 0.9;\n    font-size: 30px;\n  }"],"sourceRoot":""}]);
+/* Make arrow icons visible + styled */
+.slick-prev:before,
+.slick-next:before {
+  color: white;
+  opacity: 0.9;
+  font-size: 30px;
+}`, "",{"version":3,"sources":["webpack://./src/Sections/Portfolio/Portfolio.css"],"names":[],"mappings":"AAAA;EACE,kBAAkB;AACpB;;AAEA;EACE,gBAAgB;EAChB,cAAc;AAChB;;AAEA;EACE,WAAW;EACX,aAAa,EAAE,8BAA8B;EAC7C,iBAAiB;EACjB,cAAc;EACd,mBAAmB;EACnB,gBAAgB;EAChB,kBAAkB;AACpB;;EAEE,6BAA6B;AAC/B;EACE,aAAa;EACb,2DAA2D;EAC3D,SAAS;AACX;;AAEA,wCAAwC;AACxC;EACE,kBAAkB;AACpB;;AAEA;EACE,kBAAkB;AACpB;;AAEA,yCAAyC;AACzC;;EAEE,WAAW;EACX,WAAW;EACX,YAAY;EACZ,QAAQ;EACR,2BAA2B;AAC7B;;AAEA,eAAe;AACf;EACE,UAAU,GAAG,qBAAqB;AACpC;;AAEA,gBAAgB;AAChB;EACE,WAAW,EAAE,sBAAsB;AACrC;;AAEA,sCAAsC;AACtC;;EAEE,YAAY;EACZ,YAAY;EACZ,eAAe;AACjB","sourcesContent":[".portfolio-section {\n  text-align: center;\n}\n  \n.portfolio-carousel {\n  max-width: 800px;\n  margin: 0 auto;\n}\n  \n.portfolio-item img {\n  width: 100%;\n  height: 400px; /* or auto with aspect-ratio */\n  object-fit: cover;\n  margin: 0 auto;\n  border-radius: 10px;\n  overflow: hidden;\n  position: relative;\n}\n\n  /* Container for categories */\n.portfolio-categories {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));\n  gap: 20px;\n}\n\n/* Center content inside each category */\n.portfolio-category {\n  text-align: center;\n}\n\n.slick-slider {\n  position: relative;\n}\n  \n/* Position arrows on top of the images */\n.slick-prev,\n.slick-next {\n  z-index: 10;\n  width: 40px;\n  height: 40px;\n  top: 50%;\n  transform: translateY(-50%);\n}\n  \n/* Left arrow */\n.slick-prev {\n  left: 30px;  /* inside left edge */\n}\n\n/* Right arrow */\n.slick-next {\n  right: 30px; /* inside right edge */\n}\n  \n/* Make arrow icons visible + styled */\n.slick-prev:before,\n.slick-next:before {\n  color: white;\n  opacity: 0.9;\n  font-size: 30px;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -786,12 +773,12 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.services-section {
     flex-wrap: wrap;
 }
   
-  .service-card {
+.service-card {
     width: 250px;
     padding: 20px;
     border: 1px solid #eee;
     border-radius: 10px;
-}`, "",{"version":3,"sources":["webpack://./src/Sections/Services/Services.css"],"names":[],"mappings":"AAAA;IACI,kBAAkB;AACtB;;AAEA;IACI,iBAAiB;IACjB,mBAAmB;IACnB,WAAW;IACX,8BAA8B,EAAE,8BAA8B;IAC9D,gBAAgB;AACpB;;AAEA;IACI,aAAa;IACb,uBAAuB;IACvB,SAAS;IACT,eAAe;AACnB;;EAEE;IACE,YAAY;IACZ,aAAa;IACb,sBAAsB;IACtB,mBAAmB;AACvB","sourcesContent":[".services-section {\n    text-align: center;\n}\n\n.service-card h3 {\n    font-size: 1.5rem;\n    margin-bottom: 20px;\n    color: pink;\n    -webkit-text-stroke: 1px black; /* outline thickness + color */\n    font-weight: 400;\n}\n\n.service-list {\n    display: flex;\n    justify-content: center;\n    gap: 40px;\n    flex-wrap: wrap;\n}\n  \n  .service-card {\n    width: 250px;\n    padding: 20px;\n    border: 1px solid #eee;\n    border-radius: 10px;\n}"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/Sections/Services/Services.css"],"names":[],"mappings":"AAAA;IACI,kBAAkB;AACtB;;AAEA;IACI,iBAAiB;IACjB,mBAAmB;IACnB,WAAW;IACX,8BAA8B,EAAE,8BAA8B;IAC9D,gBAAgB;AACpB;;AAEA;IACI,aAAa;IACb,uBAAuB;IACvB,SAAS;IACT,eAAe;AACnB;;AAEA;IACI,YAAY;IACZ,aAAa;IACb,sBAAsB;IACtB,mBAAmB;AACvB","sourcesContent":[".services-section {\n    text-align: center;\n}\n\n.service-card h3 {\n    font-size: 1.5rem;\n    margin-bottom: 20px;\n    color: pink;\n    -webkit-text-stroke: 1px black; /* outline thickness + color */\n    font-weight: 400;\n}\n\n.service-list {\n    display: flex;\n    justify-content: center;\n    gap: 40px;\n    flex-wrap: wrap;\n}\n  \n.service-card {\n    width: 250px;\n    padding: 20px;\n    border: 1px solid #eee;\n    border-radius: 10px;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -35637,15 +35624,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _About_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./About.css */ "./src/Sections/About/About.css");
-
+/* harmony import */ var _About_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./About.css */ "./src/Sections/About/About.css");
 
 var About = function About() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
+  return /*#__PURE__*/React.createElement("section", {
     className: "about-section"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "About Me"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "I specialize in creating inspired designs that turn dreams into reality. Whether you're decorating your home, elevating your workspace, hosting a holiday gathering, or planning a party or special event, I bring your vision to life with intention, creativity, and care."));
+  }, /*#__PURE__*/React.createElement("h2", null, "About Me"), /*#__PURE__*/React.createElement("p", null, "I specialize in creating inspired designs that turn dreams into reality. Whether you're decorating your home, elevating your workspace, hosting a holiday gathering, or planning a party or special event, I bring your vision to life with intention, creativity, and care."));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (About);
 
@@ -35717,19 +35701,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Contact_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Contact.css */ "./src/Sections/Contact/Contact.css");
-
+/* harmony import */ var _Contact_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Contact.css */ "./src/Sections/Contact/Contact.css");
 
 var Contact = function Contact() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
+  return /*#__PURE__*/React.createElement("section", {
     className: "contact-section"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Your dream space or event is just one message away."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+  }, /*#__PURE__*/React.createElement("h2", null, "Your dream space or event is just one message away."), /*#__PURE__*/React.createElement("a", {
     href: "mailto:missysignaturespaces@gmail.com?subject=%5BType%5D%20Consultation%20Request",
     target: "_blank",
     rel: "noopener noreferrer"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+  }, /*#__PURE__*/React.createElement("button", {
     className: "contact-button"
   }, "Book Your Consultation")));
 };
@@ -35803,22 +35784,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Header_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header.css */ "./src/Sections/Header/Header.css");
-
- // optional stylesheet
+/* harmony import */ var _Header_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Header.css */ "./src/Sections/Header/Header.css");
 
 var Header = function Header() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
+  return /*#__PURE__*/React.createElement("section", {
     className: "header"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, /*#__PURE__*/React.createElement("div", {
     className: "header-content"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, "Creating experiences by transforming any space."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Moments made beautiful."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "I don\u2019t just decorate spaces \u2014 I craft environments that tell stories. From curated home and office designs to beautifully themed events, parties, and special celebrations, I transform any space into a moment you\u2019ll never forget."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+  }, /*#__PURE__*/React.createElement("h1", null, "Creating experiences by transforming any space."), /*#__PURE__*/React.createElement("h2", null, "Moments made beautiful."), /*#__PURE__*/React.createElement("p", null, "I don\u2019t just decorate spaces \u2014 I craft environments that tell stories. From curated home and office designs to beautifully themed events, parties, and special celebrations, I transform any space into a moment you\u2019ll never forget."), /*#__PURE__*/React.createElement("a", {
     href: "mailto:missysignaturespaces@gmail.com?subject=%5BType%5D%20Consultation%20Request",
     target: "_blank",
     rel: "noopener noreferrer"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+  }, /*#__PURE__*/React.createElement("button", {
     className: "header-button"
   }, "Let's Get Started"))));
 };
@@ -36019,21 +35996,21 @@ var Portfolio = function Portfolio() {
     name: "Event Planning",
     images: [_assets_event_Tezza_0472_JPG__WEBPACK_IMPORTED_MODULE_7__, _assets_event_Tezza_0917_JPG__WEBPACK_IMPORTED_MODULE_8__, _assets_event_Tezza_1846_JPG__WEBPACK_IMPORTED_MODULE_9__, _assets_event_Tezza_1975_JPG__WEBPACK_IMPORTED_MODULE_10__, _assets_event_Tezza_6247_JPG__WEBPACK_IMPORTED_MODULE_11__, _assets_event_Tezza_3011_JPG__WEBPACK_IMPORTED_MODULE_12__, _assets_event_Tezza_4553_JPG__WEBPACK_IMPORTED_MODULE_13__, _assets_event_Tezza_7719_JPG__WEBPACK_IMPORTED_MODULE_14__, _assets_event_Tezza_8810_JPG__WEBPACK_IMPORTED_MODULE_15__]
   }];
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
+  return /*#__PURE__*/React.createElement("section", {
     className: "portfolio-section"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Portfolio"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, /*#__PURE__*/React.createElement("h2", null, "Portfolio"), /*#__PURE__*/React.createElement("div", {
     className: "portfolio-categories"
   }, categories.map(function (cat, index) {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    return /*#__PURE__*/React.createElement("div", {
       key: index,
       className: "portfolio-category"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, cat.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_slick__WEBPACK_IMPORTED_MODULE_1__["default"], _extends({
+    }, /*#__PURE__*/React.createElement("h3", null, cat.name), /*#__PURE__*/React.createElement(react_slick__WEBPACK_IMPORTED_MODULE_1__["default"], _extends({
       ref: cat.ref
     }, settings), cat.images.map(function (img, i) {
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+      return /*#__PURE__*/React.createElement("div", {
         key: i,
         className: "portfolio-item"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+      }, /*#__PURE__*/React.createElement("img", {
         src: img,
         alt: "".concat(cat.name, " ").concat(i + 1)
       }));
@@ -36110,23 +36087,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Services_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Services.css */ "./src/Sections/Services/Services.css");
-
+/* harmony import */ var _Services_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Services.css */ "./src/Sections/Services/Services.css");
 
 var Services = function Services() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
+  return /*#__PURE__*/React.createElement("section", {
     className: "services-section"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Services"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, /*#__PURE__*/React.createElement("h2", null, "Services"), /*#__PURE__*/React.createElement("div", {
     className: "service-list"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, /*#__PURE__*/React.createElement("div", {
     className: "service-card"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, "Residential Design"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Thoughtfully curated home spaces shaped around the way you live. Whether it's subtle enhancements or full transformations, every detail is crafted to reflect your personality, lifestyle, and vision.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, /*#__PURE__*/React.createElement("h3", null, "Residential Design"), /*#__PURE__*/React.createElement("p", null, "Thoughtfully curated home spaces shaped around the way you live. Whether it's subtle enhancements or full transformations, every detail is crafted to reflect your personality, lifestyle, and vision.")), /*#__PURE__*/React.createElement("div", {
     className: "service-card"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, "Commercial Design"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Inviting, functional environments that elevate your brand. From offices to boutique spaces, I create atmospheres that support productivity, create impact, and elevate the experience of everyone who walks through your doors.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, /*#__PURE__*/React.createElement("h3", null, "Commercial Design"), /*#__PURE__*/React.createElement("p", null, "Inviting, functional environments that elevate your brand. From offices to boutique spaces, I create atmospheres that support productivity, create impact, and elevate the experience of everyone who walks through your doors.")), /*#__PURE__*/React.createElement("div", {
     className: "service-card"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, "Event Planning"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "From birthdays to holiday gatherings, or milestone moments, I help you bring your celebration to life with style and ease. You share the vision\u2014I bring the creativity, coordination, and atmosphere to craft moments your guests will remember."))));
+  }, /*#__PURE__*/React.createElement("h3", null, "Event Planning"), /*#__PURE__*/React.createElement("p", null, "From birthdays to holiday gatherings, or milestone moments, I help you bring your celebration to life with style and ease. You share the vision\u2014I bring the creativity, coordination, and atmosphere to craft moments your guests will remember."))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Services);
 
@@ -36198,15 +36172,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Sections_Header_Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Sections/Header/Header */ "./src/Sections/Header/Header.jsx");
-/* harmony import */ var _Sections_About_About__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Sections/About/About */ "./src/Sections/About/About.jsx");
-/* harmony import */ var _Sections_Services_Services__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Sections/Services/Services */ "./src/Sections/Services/Services.jsx");
-/* harmony import */ var _Sections_Portfolio_Portfolio__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Sections/Portfolio/Portfolio */ "./src/Sections/Portfolio/Portfolio.jsx");
-/* harmony import */ var _Sections_Contact_Contact__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Sections/Contact/Contact */ "./src/Sections/Contact/Contact.jsx");
-/* harmony import */ var _app_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./app.css */ "./src/app.css");
-
+/* harmony import */ var _Sections_Header_Header__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Sections/Header/Header */ "./src/Sections/Header/Header.jsx");
+/* harmony import */ var _Sections_About_About__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Sections/About/About */ "./src/Sections/About/About.jsx");
+/* harmony import */ var _Sections_Services_Services__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Sections/Services/Services */ "./src/Sections/Services/Services.jsx");
+/* harmony import */ var _Sections_Portfolio_Portfolio__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Sections/Portfolio/Portfolio */ "./src/Sections/Portfolio/Portfolio.jsx");
+/* harmony import */ var _Sections_Contact_Contact__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Sections/Contact/Contact */ "./src/Sections/Contact/Contact.jsx");
+/* harmony import */ var _app_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./app.css */ "./src/app.css");
 
 
 
@@ -36214,9 +36185,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var App = function App() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  return /*#__PURE__*/React.createElement("div", {
     className: "homepage"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Sections_Header_Header__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Sections_About_About__WEBPACK_IMPORTED_MODULE_2__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Sections_Services_Services__WEBPACK_IMPORTED_MODULE_3__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Sections_Portfolio_Portfolio__WEBPACK_IMPORTED_MODULE_4__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Sections_Contact_Contact__WEBPACK_IMPORTED_MODULE_5__["default"], null));
+  }, /*#__PURE__*/React.createElement(_Sections_Header_Header__WEBPACK_IMPORTED_MODULE_0__["default"], null), /*#__PURE__*/React.createElement(_Sections_About_About__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/React.createElement(_Sections_Services_Services__WEBPACK_IMPORTED_MODULE_2__["default"], null), /*#__PURE__*/React.createElement(_Sections_Portfolio_Portfolio__WEBPACK_IMPORTED_MODULE_3__["default"], null), /*#__PURE__*/React.createElement(_Sections_Contact_Contact__WEBPACK_IMPORTED_MODULE_4__["default"], null));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (App);
 
@@ -36731,15 +36702,12 @@ var __webpack_exports__ = {};
   !*** ./src/main.jsx ***!
   \**********************/
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_dom_client__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom/client */ "./node_modules/react-dom/client.js");
-/* harmony import */ var _app__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app */ "./src/app.jsx");
+/* harmony import */ var react_dom_client__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-dom/client */ "./node_modules/react-dom/client.js");
+/* harmony import */ var _app__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./app */ "./src/app.jsx");
 
 
-
-var root = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_1__.createRoot)(document.getElementById('root'));
-root.render(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_app__WEBPACK_IMPORTED_MODULE_2__["default"], null));
+var root = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_0__.createRoot)(document.getElementById('root'));
+root.render(/*#__PURE__*/React.createElement(_app__WEBPACK_IMPORTED_MODULE_1__["default"], null));
 })();
 
 /******/ })()

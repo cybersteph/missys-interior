@@ -1,76 +1,62 @@
 .portfolio-section {
-    text-align: center;
+  text-align: center;
 }
   
 .portfolio-carousel {
-    max-width: 800px;
-    margin: 0 auto;
+  max-width: 800px;
+  margin: 0 auto;
 }
   
 .portfolio-item img {
-    width: 100%;
-    height: 400px; /* or auto with aspect-ratio */
-    object-fit: cover;
-    margin: 0 auto;
-    border-radius: 10px;
-    overflow: hidden;
-    position: relative;
+  width: 100%;
+  height: 400px; /* or auto with aspect-ratio */
+  object-fit: cover;
+  margin: 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
 }
 
   /* Container for categories */
 .portfolio-categories {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
 }
-
-  /* Mobile: stacked */
-/* @media (max-width: 768px) {
-    .portfolio-categories {
-      grid-template-columns: 1fr;
-    }
-} */
-  
-/* Desktop: three side-by-side */
-/* @media (min-width: 769px) {
-    .portfolio-categories {
-        grid-template-columns: repeat(3, 1fr);
-    }
-} */
 
 /* Center content inside each category */
 .portfolio-category {
-    text-align: center;
+  text-align: center;
 }
 
 .slick-slider {
-    position: relative;
-  }
+  position: relative;
+}
   
-  /* Position arrows on top of the images */
-  .slick-prev,
-  .slick-next {
-    z-index: 10;
-    width: 40px;
-    height: 40px;
-    top: 50%;
-    transform: translateY(-50%);
-  }
+/* Position arrows on top of the images */
+.slick-prev,
+.slick-next {
+  z-index: 10;
+  width: 40px;
+  height: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+}
   
-  /* Left arrow */
-  .slick-prev {
-    left: 30px;  /* inside left edge */
-  }
+/* Left arrow */
+.slick-prev {
+  left: 30px;  /* inside left edge */
+}
+
+/* Right arrow */
+.slick-next {
+  right: 30px; /* inside right edge */
+}
   
-  /* Right arrow */
-  .slick-next {
-    right: 30px; /* inside right edge */
-  }
-  
-  /* Make arrow icons visible + styled */
-  .slick-prev:before,
-  .slick-next:before {
-    color: white;         /* or black */
-    opacity: 0.9;
-    font-size: 30px;
-  }
+/* Make arrow icons visible + styled */
+.slick-prev:before,
+.slick-next:before {
+  color: white;
+  opacity: 0.9;
+  font-size: 30px;
+}

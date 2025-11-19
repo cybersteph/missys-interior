@@ -1,11 +1,11 @@
 .about-section {
-    text-align: center;
-  }
+  text-align: center;
+}
 
 .about-section p {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    color: pink;
-    -webkit-text-stroke: 1px black; /* outline thickness + color */
-    font-weight: 400;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: pink;
+  -webkit-text-stroke: 1px black; /* outline thickness + color */
+  font-weight: 400;
 }

@@ -1,4 +1,3 @@
-import React from "react";
 import Header from "./Sections/Header/Header";
 import About from "./Sections/About/About";
 import Services from "./Sections/Services/Services";
